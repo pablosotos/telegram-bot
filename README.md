@@ -1,5 +1,5 @@
 # telegram-bot
-Telegram bot developed by @pablosotos for an interview for Mitek .
+Telegram bot developed by @pablosotos.
 
 Requirements:
 - Python Telegram Bot library: pip3 install python-telegram-bot

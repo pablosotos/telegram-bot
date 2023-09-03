@@ -20,7 +20,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # Bot start greeting
 @bot.message_handler(commands=['start'])
 def handle_start(message):
-    bot.reply_to(message, "Hello!, I'm Mitek Systems bot for Telegram. I've been developed by Pablo Sotos in a interview process made exclusively to save your audio messages and detect which photos have faces in them.")
+    bot.reply_to(message, "Hello!, I'm Michael-bot for Telegram. I've been developed by Pablo Sotos made exclusively to save your audio messages and detect which photos have faces in them.")
 
 # Audio message handler
 @bot.message_handler(content_types=['voice'])
